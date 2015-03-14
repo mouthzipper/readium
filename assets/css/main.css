@@ -80,6 +80,11 @@ body {
   overflow: hidden;
   background-color: black; }
   .teaserimage .teaserimage-image {
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(#greyscale);
+    filter: gray;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -103,6 +108,11 @@ body {
     .blog-header {
       padding: 0 16px; } }
   .blog-header .blog-logo {
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(#greyscale);
+    filter: gray;
     width: 120px;
     height: 120px;
     position: absolute;
